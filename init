@@ -1,0 +1,26 @@
+packages to install
+
+--Notifications
+*libnotify
+*mako
+*btop
+*eza
+*elephant
+*hypr
+*kitty
+*nvim
+*starship
+*walker
+*waybar
+*yazi
+*yay 
+
+
+-- clone config files
+git init --bare $HOME/.jb
+alias jb='/usr/bin/git --git-dir=$HOME./jb/ --work-tree=$HOME'
+jb config --local status.showUntrackedFiles no
+
+
+
+-- install catpucchin theme in kitty.
