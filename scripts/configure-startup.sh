@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 set -euo pipefail
+TARGET_USER="${1:-${SUDO_USER:-${USER}}}"
 
 # Bepaal HOME en shell van de target user
 USER_HOME="$(getent passwd "$TARGET_USER" | cut -d: -f6)"
