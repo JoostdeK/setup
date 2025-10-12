@@ -7,4 +7,5 @@ echo "alias jb='/usr/bin/git --git-dir=\$HOME/.jb/ --work-tree=\$HOME'" >>"$HOME
 function jb {
   /usr/bin/git --git-dir=$HOME/.jb/ --work-tree=$HOME $@
 }
+jb checkout
 jb config --local status.showUntrackedFiles no
