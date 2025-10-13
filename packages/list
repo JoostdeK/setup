@@ -12,6 +12,7 @@ elephant-clipboard
 elephant-runner 
 elephant-files 
 elephant-menus
+egl-wayland
 hyprland
 hypridle
 hyprlock
@@ -29,6 +30,8 @@ yazi
 walker
 waybar
 wget
+qt5-wayland
+qt6-wayland
 zoxide
 zsh
 zip
