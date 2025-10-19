@@ -22,6 +22,12 @@ libnotify
 mako
 neovim
 npm
+openssh
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+pwvucontrol
 ripgrep
 starship
 ttf-cascadia-mono-nerd
@@ -33,6 +39,7 @@ waybar
 wget
 qt5-wayland
 qt6-wayland
+wireplumber
 zoxide
 zsh
 zip
