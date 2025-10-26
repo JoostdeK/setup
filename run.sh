@@ -11,6 +11,7 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 "$SCRIPT_DIR/scripts/install-config.sh"
 "$SCRIPT_DIR/scripts/install-repos.sh"
 "$SCRIPT_DIR/scripts/install-gaming.sh"
+"$SCRIPT_DIR/scripts/install-cura.sh"
 sudo "$SCRIPT_DIR/scripts/configure-startup.sh" jvdb
 "$SCRIPT_DIR/scripts/finish.sh"
 
