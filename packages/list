@@ -1,3 +1,4 @@
+brightnessctl
 btop
 ungoogled-chromium-bin
 fzf
@@ -17,6 +18,7 @@ egl-wayland
 hyprland
 hypridle
 hyprlock
+hyprpaper
 kitty
 less
 libnotify
