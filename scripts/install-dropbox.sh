@@ -2,12 +2,12 @@
 
 set -euo pipefail
 
-read -p "Do you want to install dropbox? (Yy/Nn) " ANSWER
+read -p "Do you want to install dropbox and obsidian? (Yy/Nn) " ANSWER
 
 case "$ANSWER" in
 [Yy] | [Yy][Ee][Ss])
   echo "You chose yes."
-  yay -Sy --noconfirm dropbox dropbox-cli libappindicator-gtk3 python-gpgme nautilus-dropbox
+  yay -Sy --noconfirm obsidian dropbox dropbox-cli libappindicator-gtk3 python-gpgme nautilus-dropbox
   ;;
 [Nn] | [Nn][Oo])
   echo "You chose no."
