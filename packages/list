@@ -11,8 +11,8 @@ eza
 elephant-desktopapplications
 elephant-providerlist
 elephant-clipboard
-elephant-runner 
-elephant-files 
+elephant-runner
+elephant-files
 elephant-menus
 egl-wayland
 hyprland
@@ -25,6 +25,7 @@ libnotify
 mako
 neovim
 npm
+opencode
 openssh
 pipewire
 pipewire-alsa
