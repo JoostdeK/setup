@@ -24,6 +24,7 @@ less
 libnotify
 mako
 neovim
+nfs-utils
 npm
 opencode
 openssh
