@@ -1,6 +1,6 @@
 brightnessctl
 btop
-ungoogled-chromium-bin
+cura-bin
 fzf
 fd
 feh
@@ -37,6 +37,7 @@ ripgrep
 starship
 ttf-cascadia-mono-nerd
 thunderbird
+ungoogled-chromium-bin
 unzip
 yay 
 yazi
